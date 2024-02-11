@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!------------Boostrap csss------------------->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!---------------Header section start here------------->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CofeeCafe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Items
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Cold Cofee</a></li>
+                <li><a class="dropdown-item" href="#">Hot Cofee</a></li>
+                <li><a class="dropdown-item" href="#">Pizza</a></li>
+                <li><a class="dropdown-item" href="#">Burger</a></li>
+                <li><a class="dropdown-item" href="#">Sandwich</a></li>
+
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Search More Items Here</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!---------------Home section end here------------->
+
+  <section class="home" id="home">
+    <div class="background-image">
+      <div class="homeContent">
+        <h3>Welcome to Our Café!</h3>
+        <p>Indulge in delightful flavors and cozy ambiance.</p>
+        <p>Sip on perfection and savor every moment.</p>
+        <p>Your happiness starts with every cup and bite.</p>
+        <div class="home-btn">
+          <a href="#"><button>see more</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------Home section end here-------------->
+
+  <!-- testimonial section with text -->
+  <section style="background-color: #f8f9fa; padding: 15px; text-align: center;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Testimonial section</h2>
+          <h3>Ckecks The client Reviews</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!----------------testimonial start  here-------------->
+
+  <section class="testimonial-section  my-1 d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 testi-img">
+          <div class="img-box">
+            <div class="circle"></div>
+            <div class="img-box-inner">
+              <img src="img/testimonial/1.png" alt="testi img">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="myCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item testi-item active" data-color="#fb9c9a" data-img="img/testimonial/1.png">
+                <p style="color: rgb(204, 64, 186);"> <strong>What I appreciate most about this cafe is the attention to
+                    detail. From the intricate latte art on my
+                    coffee to the presentation of the food, every little detail was thoughtfully crafted. It's evident
+                    that the team here is passionate about what they do.</strong></p>
+                <h3>juhi anchaly <span>web developer</span></h3>
+              </div>
+              <div class="carousel-item testi-item" data-color="#fbd39a" data-img="img/testimonial/2.png">
+                <p style="color: rgb(204, 40, 136);">Perfect for those warm summer days or whenever you crave a cool
+                  pick-me-up, cold coffee is more than just a beverage—it's a sensation.
+
+                </p>
+                <h3>john doe 2 <span>web developer</span></h3>
+              </div>
+              <div class="carousel-item testi-item" data-color="#9ab0fb"
+                data-img="https://media.istockphoto.com/id/671799950/photo/little-pretty-girl-in-jean-jacket-with-long-brown-hair-hold-a-burger.jpg?s=1024x1024&w=is&k=20&c=hlhWI1B6kV-OLoR82xiy336dK87L3__A6avGGFsvbJc="
+                width="200px">
+                <p style="color: rgb(254, 7, 7);">I stumbled upon this cafe during a lazy Sunday afternoon, and it
+                  turned out to be the highlight of my weekend. The ambiance is cozy yet vibrant, with just the right
+                  amount of chatter and warmth. As soon as I entered, the aroma of freshly brewed coffee welcomed me,
+                  instantly lifting my spirits.</p>
+                <h3>Maxi Moriniam - <span>Student</span></h3>
+              </div>
+              <div class="carousel-item testi-item" data-color="#9ab0fb"
+                data-img="https://media.istockphoto.com/id/175715226/photo/cooking.jpg?s=1024x1024&w=is&k=20&c=04F1JGhV8zk1Q9vBBVVvDCuIS8Hc2FT_o4aNgUHj21A="
+                style="width: 120%; height: 150px;">
+
+                <p> Let me tell you, it was a match made in heaven! The cappuccino was rich and velvety,
+                  with the perfect balance of espresso and steamed milk. And the carrot cake? Oh, it was divine –
+                  moist, flavorful, and topped with a heavenly cream cheese frosting.</p>
+                <h3 style="color:rgb(228, 29, 159)">Aroma Sinha- <span>Software Developer</span></h3>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <img src="img/icons/left-arrow.png" alt="prev">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <img src="img/icons/right-arrow.png" alt="prev">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------testimonial end  here-------------->
+
+  <!-- ----------card  section intro start here--------------- -->
+  <section style="background-color: #f8f9fa; padding: 20px; text-align: center;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Looking towards the beautiful Cards</h2>
+          <h2>Order Your Items Here !!!</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ----------card  section intro end here--------------- -->
+
+
+  <!----------------cards start  here-------------->
+
+  <section class="card-section  my-3 d-flex align-items-center">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-sm">
+          <div class="card h-100">
+            <img
+              src="https://media.istockphoto.com/id/617367366/photo/cold-chocolate-milkshake-frappe-in-tall-glass-with-ice.jpg?s=1024x1024&w=is&k=20&c=zqFJD1ubixzIkW5h25jGVLc3SyaloK0zmy2k0clp04Y="
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cold Cofee</h5>
+              <p class="card-text" style="color: rgb(204, 64, 186); font-weight: bold;">The perfect day with the perfect
+                cold coffee ... <br>First try then Enjoy your day!!!
+              </p>
+              <h3>$200</h3>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card h-100">
+            <img
+              src="https://media.istockphoto.com/id/938742222/photo/cheesy-pepperoni-pizza.jpg?s=1024x1024&w=is&k=20&c=OKXH55QwDa6L3cY2pTTz1DKVT2clqW3zcVaJVaU-N_U="
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pizza</h5>
+              <p class="card-text" style="color: rgb(204, 64, 186); font-weight: bold;">Craving a Slice of Heaven? Dive
+                into Our Delectable Pizzas! </p>
+              <h3>$700</h3>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card h-100">
+            <img
+              src="https://media.istockphoto.com/id/182744943/photo/burger.jpg?s=1024x1024&w=is&k=20&c=ITKQIm9gn1H-DZ8FUzawukQdAXUsbsU4-_npC2rGUos="
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Burger</h5>
+              <p class="card-text" style="color: rgb(204, 64, 186);font-weight: bold; ">Bite into Bliss with Our
+                Mouthwatering Burgers!</p>
+              <h3>$340</h3>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    const myCarousel = document.getElementById('myCarousel')
+    myCarousel.addEventListener('slid.bs.carousel', function () {
+      const activeItem = this.querySelector(".active");
+      document.querySelector(".testi-img img").src = activeItem.getAttribute("data-img");
+      document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
+    })
+  </script>
+</body>
+
+</html>

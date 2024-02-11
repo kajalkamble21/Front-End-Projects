@@ -1,0 +1,179 @@
+#service_one {
+    background-size: 1100px !important;
+}
+
+@media (max-width: 1920px) {
+    #service_one {
+        background-size: 1050px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    #service_one {
+        background-size: 950px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    #service_one {
+        background-size: 850px !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    #service_one {
+        background-size: 820px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #service_one {
+        background-size: 720px !important;
+    }
+}
+
+@media (max-width: 1140px) {
+    #service_one {
+        background-size: 680px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    #service_one {
+        background-size: 630px !important;
+    }
+}
+
+.vc_custom_1621845292886 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1622140993417 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1621939551341 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1621939600624 {
+    background-color: #111517 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1621939590850 {
+    background-color: #111517 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1621940073693 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1621940064017 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1686758218882 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1621939737841 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1622141007907 {
+    background-color: #111517 !important;
+}
+
+.vc_custom_1687007089153 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/cannywebsitedesigns.jpg?id=1306) !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+}
+
+.vc_custom_1621933837867 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/cannywebsitedesigns.jpg?id=1306) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1622142594971 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/Ecommerce.jpg?id=1319) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1621933891995 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/Ecommerce.jpg?id=1319) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1622142840194 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/Branding.jpg?id=1328) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1621938771571 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/Branding.jpg?id=1328) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1622142870754 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/FBInstagram.jpg?id=1332) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1621933941052 {
+    background-image: url(https://www.cannyworx.com/wp-content/uploads/2021/05/FBInstagram.jpg?id=1332) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+    .wpb_animate_when_almost_visible {
+        opacity: 1;
+    }
+
+:root {
+    --wpforms-field-border-radius: 3px;
+    --wpforms-field-background-color: #ffffff;
+    --wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+    --wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+    --wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+    --wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+    --wpforms-label-error-color: #d63637;
+    --wpforms-button-border-radius: 3px;
+    --wpforms-button-background-color: #066aab;
+    --wpforms-button-text-color: #ffffff;
+    --wpforms-field-size-input-height: 43px;
+    --wpforms-field-size-input-spacing: 15px;
+    --wpforms-field-size-font-size: 16px;
+    --wpforms-field-size-line-height: 19px;
+    --wpforms-field-size-padding-h: 14px;
+    --wpforms-field-size-checkbox-size: 16px;
+    --wpforms-field-size-sublabel-spacing: 5px;
+    --wpforms-field-size-icon-size: 1;
+    --wpforms-label-size-font-size: 16px;
+    --wpforms-label-size-line-height: 19px;
+    --wpforms-label-size-sublabel-font-size: 14px;
+    --wpforms-label-size-sublabel-line-height: 17px;
+    --wpforms-button-size-font-size: 17px;
+    --wpforms-button-size-height: 41px;
+    --wpforms-button-size-padding-h: 15px;
+    --wpforms-button-size-margin-top: 10px;
+}

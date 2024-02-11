@@ -1,0 +1,266 @@
+.ut-portfolio-101 .ut-portfolio-item-container {
+    background: rgba(20, 22, 24, 1) ;
+}
+
+.ut-portfolio-101.ut-carousel {
+    background: rgba(20, 22, 24, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-item-packery-container {
+    background: rgba(20, 22, 24, 1) ;
+}
+
+#ut-masonry-101 {
+    background: rgba(20, 22, 24, 1) ;
+}
+
+#ut-react-carousel-container-101 {
+    background: rgba(20, 22, 24, 1) ;
+}
+
+.ut-portfolio-101 .ut-portfolio-info-c h3 {
+    font-family: "Montserrat" ;
+    font-weight: 800 ;
+    font-size: 20px ;
+    letter-spacing: -0.05em ;
+    text-transform: capitalize ;
+}
+
+.ut-portfolio-101 .portfolio-title {
+    font-family: "Montserrat" ;
+    font-weight: 800 ;
+    font-size: 20px ;
+    letter-spacing: -0.05em ;
+    text-transform: capitalize ;
+}
+
+.ut-portfolio-101 .ut-portfolio-info-c span {
+    font-family: "Poppins" ;
+    font-weight: 600 ;
+    font-size: 12px ;
+    letter-spacing: 0.05em ;
+    text-transform: uppercase ;
+}
+
+.ut-portfolio-101 .ut-portfolio-info-c h3 {
+    color: rgba(17, 17, 17, 1) ;
+}
+
+.ut-portfolio-101 .portfolio-title {
+    color: rgba(17, 17, 17, 1);
+}
+
+.ut-portfolio-101 .ut-portfolio-info-c, .ut-portfolio-101 .ut-portfolio-info-c span {
+    color: rgba(17, 17, 17, 1) ;
+}
+
+.ut-portfolio-101 .ut-hover-layer .ut-portfolio-info {
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+}
+
+.ut-portfolio-101 .ut-hover-layer .ut-portfolio-info-c {
+    align-self: center !important;
+    text-align: center;
+}
+
+.ut-portfolio-101 .portfolio-style-two .ut-portfolio-info i {
+    text-align: center ;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    border: none;
+    padding: 0;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    font-weight: 600 !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    text-transform: uppercase !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    font-style: normal !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    letter-spacing: 0.05em !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a {
+    border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a:hover {
+    color: rgba(18, 18, 18, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a:hover {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a:hover {
+    border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a.selected {
+    color: rgba(18, 18, 18, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a.selected {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-portfolio-menu li a.selected {
+    border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.ut-portfolio-101 .ut-hover-layer {
+    background: rgba(255,255,255, 1);
+}
+
+#ut-loader-101 {
+    color: #ffffff ;
+}
+
+#ut-loader-101 {
+    background: #111111 ;
+}
+
+#ut-portfolio-details-navigation-101 a.next-portfolio-details {
+    color: #111111 ;
+}
+
+#ut-portfolio-details-navigation-101 a.prev-portfolio-details {
+    color: #111111 ;
+}
+
+#ut-portfolio-details-navigation-101 a.next-portfolio-details:hover {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.next-portfolio-details:active {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.next-portfolio-details:focus {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.prev-portfolio-details:hover {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.prev-portfolio-details:active {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.prev-portfolio-details:focus {
+    color: #999999 ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:hover {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:active {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:focus {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details {
+    background: #111111 ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:hover {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:active {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-navigation-101 a.close-portfolio-details:focus {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:hover {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:active {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:focus {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:hover {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:active {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:focus {
+    color: #ffffff ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next {
+    background: #111111 ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev {
+    background: #111111 ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:hover {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:active {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-next:focus {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:hover {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:active {
+    background: #19b5fe ;
+}
+
+#ut-portfolio-details-wrap-101 .ut-portfolio-media a.flex-prev:focus {
+    background: #19b5fe ;
+}

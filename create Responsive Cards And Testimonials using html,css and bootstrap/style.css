@@ -1,0 +1,140 @@
+.home {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Ensure the section covers the viewport */
+}
+
+.home .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('img/bg1.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+}
+
+.home .homeContent {
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 2%; /* Adjust this value to your preference */
+    transform: translateY(-50%);
+    padding: 20px;
+    color: aliceblue;
+    z-index: 1; /* Ensure content is above background image */
+}
+
+.home .homeContent h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.home .homeContent p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.home .homeContent .home-btn button {
+    font-size: 1.2rem;
+    background-color: var(--Red);
+    color: var(--white);
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home .homeContent .home-btn button:hover {
+    font-size: 1.3rem;
+}
+
+
+@media (max-width: 768px) {
+    .home .homeContent {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+.testimonial-section {
+    background-image: url('img/bg3.png');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.testimonial-section{
+    background-color: #ffffff;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+.testi-img .img-box{
+    max-width: 360px;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+
+.testi-img .img-box-inner{
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow:hidden;
+}
+.testi-img .img-box-inner img{
+    max-width: 310px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+}
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;   
+    display: inline-flex;
+    border-radius: 50%;
+}
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img{
+    width: 15px;
+}
+.testi-item h3,
+.testi-item p{
+    font-size: 18px;
+}
+.testi-item h3{
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:991px){
+    .testi-img .img-box{
+        max-width: 300px;
+    }
+   
+    .testi-img .img-box-inner{
+        border-radius: 0 0 150px 150px;
+    }
+    .testi-img .img-box-inner img{
+        max-width: 230px;
+    }
+}
+@media(max-width:767px){
+    .testi-img{
+        margin-bottom: 25px;
+    }
+}
+
+.card-section {
+    background-image: url('img/bg2.png');
+    background-size: cover; /* Adjust as per your requirement */
+    background-position: center; /* Adjust as per your requirement */
+}
